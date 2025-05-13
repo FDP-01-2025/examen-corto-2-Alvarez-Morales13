@@ -50,6 +50,7 @@ int main(){
 
     case 3:
         //Lista de platos de ambos clientes
+        //Lista
         cout << "Estudiante (25%): " << endl;
         cout << "Combo hamburguesa: $8 " << "Descuento: " << 8 - (8*0.25) << endl;
         cout << "Combo pizza personal: $7 " << "Descuento: " << 7 - (7*0.25) << endl;
