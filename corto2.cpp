@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     //Declaracion de las variables
-    int edad,salida,cliente;
+    int edad,cliente;
     double precio;
     float saldo;
 
@@ -50,7 +50,6 @@ int main(){
 
     case 3:
         //Lista de platos de ambos clientes
-        //Lista
         cout << "Estudiante (25%): " << endl;
         cout << "Combo hamburguesa: $8 " << "Descuento: " << 8 - (8*0.25) << endl;
         cout << "Combo pizza personal: $7 " << "Descuento: " << 7 - (7*0.25) << endl;
@@ -72,8 +71,11 @@ int main(){
 
     if (saldo > precio){
         cout << "Saldo suficiente." << endl;
+        cout << "Compra exitosa" << endl;
+
     }else{
         cout << "Es mayor al saldo disponible." << endl;
+        cout << "No es posible realizar la compra";
     }
 
     return 0;
